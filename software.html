@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Software | Sam Desmond Schulman</title>
+  <meta name="description" content="Open tools by Sam Desmond Schulman for quantifying Oil Red O fat staining in C. elegans with Python and CellProfiler.">
+  <meta name="author" content="Sam Desmond Schulman">
+  <link rel="canonical" href="https://samdesmondschulman.com/software.html">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Software | Sam Desmond Schulman">
+  <meta property="og:description" content="Open tools by Sam Desmond Schulman for quantifying Oil Red O fat staining in C. elegans with Python and CellProfiler.">
+  <meta property="og:url" content="https://samdesmondschulman.com/software.html">
+  <meta property="og:image" content="https://samdesmondschulman.com/sam-desmond-schulman.png">
+  <meta property="profile:first_name" content="Sam">
+  <meta property="profile:last_name" content="Schulman">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Sam Desmond Schulman</a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="software.html" aria-current="page">Software</a>
+        <a href="outreach.html">Outreach</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Software</h1>
+      <p class="lede">Tools I've built for measuring fat stores in <em>C. elegans</em> from Oil Red O images.</p>
+
+      <h2>ORO Analysis Toolsuite</h2>
+      <p>Oil Red O staining colors fat red, but turning images of stained worms into reliable numbers is
+      harder than it looks. My toolsuite converts image intensity to optical density using the
+      Beer&ndash;Lambert relationship. In my testing, optical density gave more reliable fat measurements
+      than raw pixel intensity.</p>
+      <ul class="plain">
+        <li><strong>CellProfiler ORO Extractor</strong> pulls per-worm fat and body-size measurements from CellProfiler output.</li>
+        <li><strong>Prism Formatter</strong> arranges results into tables ready for GraphPad Prism.</li>
+        <li><strong>ANOVA and pairwise comparison tools</strong> run statistics across strains and conditions.</li>
+        <li>Every tool writes Excel workbooks and runs with a double-click on Windows.</li>
+      </ul>
+      <p>Code: <a href="https://github.com/samdesmondschulman" rel="me">github.com/samdesmondschulman</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; 2026 Sam Desmond Schulman &middot; New Orleans, Louisiana</span>
+      <span class="footer-links">
+        <a href="mailto:sdschulm@uno.edu">Email</a>
+        <a href="https://github.com/samdesmondschulman" rel="me">GitHub</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
